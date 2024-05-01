@@ -363,7 +363,7 @@ void userInput(int userBoard[][9], int solvedBoard[][9]) {
             int minutes = duration / 60;
             int seconds = duration % 60;
 
-            cout << endl << "       Congratulations!!!" << endl << endl
+            cout << endl << "        Congratulations!!!" << endl << endl
                  << "     You solved the puzzle in " << endl << "     " << minutes << " minutes and "
                  << seconds % 60 << " seconds." << endl << endl;
 
