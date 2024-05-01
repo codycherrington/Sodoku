@@ -381,7 +381,9 @@ int main() {
                 continue;
             }
 
-            break; 
+            else {
+                break; 
+            }
         }
         // Check the player's choice and continue or end the game accordingly
         if (choice == 'Y' || choice == 'y') {
